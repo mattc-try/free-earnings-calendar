@@ -1,0 +1,10 @@
+# Ignore configuration files with API keys
+earnings_config.json
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore macOS system files
+.DS_Store
