@@ -2,7 +2,7 @@
 
 > Auto-generate an iCal feed from upcoming stock earnings dates. Subscribe once in Apple or Google Calendar and never miss an earnings report again.
 
-[![Update Earnings Calendar](https://github.com/mattc-try/finnhub-to-ics-calendar/actions/workflows/update-calendar.yml/badge.svg)](https://github.com/mattc-try/finnhub-to-ics-calendar/actions/workflows/update-calendar.yml)
+[![Update Earnings Calendar](https://github.com/mattc-try/free-earnings-calendar/actions/workflows/update-calendar.yml/badge.svg)](https://github.com/mattc-try/free-earnings-calendar/actions/workflows/update-calendar.yml)
 
 ## Features
 
@@ -16,8 +16,8 @@
 
 ```bash
 # 1. Clone the repo
-git clone git@github.com:mattc-try/finnhub-to-ics-calendar.git
-cd finnhub-to-ics-calendar
+git clone git@github.com:mattc-try/free-earnings-calendar.git
+cd free-earnings-calendar
 
 # 2. Install dependencies
 pip install -r requirements.txt
@@ -73,20 +73,37 @@ This repo includes a GitHub Actions workflow that runs **daily at 22:00 UTC** (a
     └── Commit & push updated earnings.ics
 ```
 
-You can also trigger it manually from the [Actions tab](https://github.com/mattc-try/finnhub-to-ics-calendar/actions).
+You can also trigger it manually from the [Actions tab](https://github.com/mattc-try/free-earnings-calendar/actions) — click "Update Earnings Calendar" → "Run workflow".
 
 ## Subscribe in Your Calendar
 
-### Option 1: GitHub Pages (recommended)
-1. Enable GitHub Pages in your repo settings (Settings → Pages → Deploy from branch → `main`, `/ root`)
-2. In your calendar app, subscribe to:
-   ```
-   https://<your-username>.github.io/<repo-name>/earnings.ics
-   ```
-3. Set auto-refresh to **every hour**
+### Step 1: Enable GitHub Pages
+Go to your repo **Settings → Pages**, then:
+- **Source:** Deploy from a branch
+- **Branch:** `main`, `/ (root)`
+- Click **Save**
 
-### Option 2: Local file
-Open `earnings.ics` directly in Calendar.app to import as a static calendar. Re-run the script to refresh.
+Your calendar will be served at:
+```
+https://<your-username>.github.io/<repo-name>/earnings.ics
+```
+
+### Step 2: Subscribe
+
+#### Apple Calendar (macOS / iOS)
+1. Open **Calendar.app**
+2. **File → New Calendar Subscription**
+3. Paste the URL from Step 1
+4. Set **Auto-refresh** to **Every hour**
+5. Click **Subscribe**, then **OK**
+
+#### Google Calendar
+1. Open [Google Calendar](https://calendar.google.com) in a browser
+2. In the left sidebar, next to **"Other calendars"**, click **+ → From URL**
+3. Paste the URL from Step 1
+4. Click **Add calendar**
+
+> ⚠️ Google Calendar refreshes external iCal feeds roughly every **12–24 hours** and this interval cannot be changed. Earnings updates may take up to a day to appear.
 
 ## File Structure
 
