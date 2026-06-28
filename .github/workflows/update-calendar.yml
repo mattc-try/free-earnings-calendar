@@ -1,0 +1,41 @@
+name: Update Earnings Calendar
+
+on:
+  schedule:
+    # Run daily at 22:00 UTC (6 PM ET / after US markets close)
+    - cron: '0 22 * * *'
+  workflow_dispatch:  # Manual trigger from GitHub UI
+
+permissions:
+  contents: write  # Needed to push the updated ICS back
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate earnings calendar
+        run: python earnings_tracker.py
+
+      - name: Commit and push updated calendar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add earnings.ics
+          if git diff --staged --quiet; then
+            echo "No changes to earnings.ics — skipping commit."
+          else
+            git commit -m "Update earnings calendar [skip ci]"
+            git push
+          fi

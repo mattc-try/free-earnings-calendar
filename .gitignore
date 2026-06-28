@@ -8,3 +8,9 @@ __pycache__/
 
 # Ignore macOS system files
 .DS_Store
+
+# Ignore Qwen Code project files
+.qwen/
+
+# Ignore development planning docs
+PLAN.md
