@@ -1,16 +1,21 @@
 {
   "tickers": [
-    "ADBE",
-    "FLOW",
-    "AMZN",
-    "BKNG",
-    "MELI",
-    "LB",
-    "FISV",
-    "GOOGL",
-    "0001.HK",
-    "ASML",
-    "FTNT",
-    "MSCI"
+    {"ticker": "ADBE", "company": "Adobe Inc.", "industry": "Application Software"},
+    {"ticker": "MELI", "company": "MercadoLibre, Inc.", "industry": "E-commerce & Fintech"},
+    {"ticker": "AMZN", "company": "Amazon.com, Inc.", "industry": "Internet Retail / Cloud Computing"},
+    {"ticker": "BKNG", "company": "Booking Holdings Inc.", "industry": "Online Travel Services"},
+    {"ticker": "HIMS", "company": "Hims & Hers Health, Inc.", "industry": "Digital Healthcare"},
+    {"ticker": "MSCI", "company": "MSCI Inc.", "industry": "Financial Data & Indexes"},
+    {"ticker": "FTNT", "company": "Fortinet, Inc.", "industry": "Cybersecurity"},
+    {"ticker": "ASML.AS", "company": "ASML Holding N.V.", "industry": "Semiconductor Equipment"},
+    {"ticker": "GOOG", "company": "Alphabet Inc. Class C", "industry": "Internet Services / AI"},
+    {"ticker": "META", "company": "Meta Platforms, Inc.", "industry": "Social Media & AI"},
+    {"ticker": "CRM", "company": "Salesforce, Inc.", "industry": "Enterprise Software (CRM)"},
+    {"ticker": "FLOW.AS", "company": "Flow Traders Ltd.", "industry": "Electronic Market Making / Financial Services"},
+    {"ticker": "MA", "company": "Mastercard Incorporated", "industry": "Payment Networks"},
+    {"ticker": "LB", "company": "LandBridge Company LLC", "industry": "Energy Infrastructure / Land & Resource Management"},
+    {"ticker": "0001.HK", "company": "CK Hutchison Holdings Ltd.", "industry": "Conglomerate"},
+    {"ticker": "FI", "company": "Fiserv, Inc.", "industry": "Financial Technology"},
+    {"ticker": "LBTYA", "company": "Liberty Global Ltd. Class A", "industry": "Telecommunications"}
   ]
 }

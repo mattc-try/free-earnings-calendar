@@ -1,14 +1,7 @@
 {
   "tickers": [
-    "NVDA",
-    "MSFT",
-    "V",
-    "COST",
-    "ISRG",
-    "SPGI",
-    "MC.PA",
-    "BLK",
-    "TSM",
-    "LSEG.L"
+    {"ticker": "NFLX", "company": "Netflix, Inc.", "industry": "Streaming Media"},
+    {"ticker": "KSPI", "company": "Kaspi.kz JSC", "industry": "Fintech / E-commerce / Payments"},
+    {"ticker": "0700.HK", "company": "Tencent Holdings Ltd.", "industry": "Internet Services / Gaming / AI"}
   ]
 }
