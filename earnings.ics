@@ -8,7 +8,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Adobe Inc. (ADBE) Earnings
 DTSTART;TZID=US/Eastern:20260910T160000
 DTEND;TZID=US/Eastern:20260910T170000
-DTSTAMP:20260714T225020Z
+DTSTAMP:20260715T225203Z
 UID:ADBE-2026-09-10@earnings-tracker
 DESCRIPTION:Adobe Inc. (ADBE) earnings report\nDate: 2026-09-10\nIndustry:
   Application Software\nSource: Yahoo Finance
@@ -27,7 +27,7 @@ BEGIN:VEVENT
 SUMMARY:📊 MercadoLibre\, Inc. (MELI) Earnings
 DTSTART;TZID=US/Eastern:20260805T160000
 DTEND;TZID=US/Eastern:20260805T170000
-DTSTAMP:20260714T225020Z
+DTSTAMP:20260715T225203Z
 UID:MELI-2026-08-05@earnings-tracker
 DESCRIPTION:MercadoLibre\, Inc. (MELI) earnings report\nDate: 2026-08-05\n
  Industry: E-commerce & Fintech\nSource: Yahoo Finance
@@ -46,7 +46,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Amazon.com\, Inc. (AMZN) Earnings
 DTSTART;TZID=US/Eastern:20260730T160000
 DTEND;TZID=US/Eastern:20260730T170000
-DTSTAMP:20260714T225020Z
+DTSTAMP:20260715T225203Z
 UID:AMZN-2026-07-30@earnings-tracker
 DESCRIPTION:Amazon.com\, Inc. (AMZN) earnings report\nDate: 2026-07-30\nIn
  dustry: Internet Retail / Cloud Computing\nSource: Yahoo Finance
@@ -65,7 +65,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Booking Holdings Inc. (BKNG) Earnings
 DTSTART;TZID=US/Eastern:20260804T160000
 DTEND;TZID=US/Eastern:20260804T170000
-DTSTAMP:20260714T225021Z
+DTSTAMP:20260715T225203Z
 UID:BKNG-2026-08-04@earnings-tracker
 DESCRIPTION:Booking Holdings Inc. (BKNG) earnings report\nDate: 2026-08-04
  \nIndustry: Online Travel Services\nSource: Yahoo Finance
@@ -86,7 +86,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Hims & Hers Health\, Inc. (HIMS) Earnings
 DTSTART;TZID=US/Eastern:20260810T160000
 DTEND;TZID=US/Eastern:20260810T170000
-DTSTAMP:20260714T225021Z
+DTSTAMP:20260715T225203Z
 UID:HIMS-2026-08-10@earnings-tracker
 DESCRIPTION:Hims & Hers Health\, Inc. (HIMS) earnings report\nDate: 2026-0
  8-10\nIndustry: Digital Healthcare\nSource: Yahoo Finance
@@ -107,7 +107,7 @@ BEGIN:VEVENT
 SUMMARY:📊 MSCI Inc. (MSCI) Earnings
 DTSTART;TZID=US/Eastern:20260721T160000
 DTEND;TZID=US/Eastern:20260721T170000
-DTSTAMP:20260714T225021Z
+DTSTAMP:20260715T225203Z
 UID:MSCI-2026-07-21@earnings-tracker
 DESCRIPTION:MSCI Inc. (MSCI) earnings report\nDate: 2026-07-21\nIndustry: 
  Financial Data & Indexes\nSource: Yahoo Finance
@@ -126,7 +126,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Fortinet\, Inc. (FTNT) Earnings
 DTSTART;TZID=US/Eastern:20260729T160000
 DTEND;TZID=US/Eastern:20260729T170000
-DTSTAMP:20260714T225021Z
+DTSTAMP:20260715T225204Z
 UID:FTNT-2026-07-29@earnings-tracker
 DESCRIPTION:Fortinet\, Inc. (FTNT) earnings report\nDate: 2026-07-29\nIndu
  stry: Cybersecurity\nSource: Yahoo Finance
@@ -145,7 +145,7 @@ BEGIN:VEVENT
 SUMMARY:📊 ASML Holding N.V. (ASML.AS) Earnings
 DTSTART;TZID=US/Eastern:20260715T160000
 DTEND;TZID=US/Eastern:20260715T170000
-DTSTAMP:20260714T225021Z
+DTSTAMP:20260715T225204Z
 UID:ASML.AS-2026-07-15@earnings-tracker
 DESCRIPTION:ASML Holding N.V. (ASML.AS) earnings report\nDate: 2026-07-15\
  nIndustry: Semiconductor Equipment\nSource: Yahoo Finance
@@ -164,7 +164,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Alphabet Inc. Class C (GOOG) Earnings
 DTSTART;TZID=US/Eastern:20260722T160000
 DTEND;TZID=US/Eastern:20260722T170000
-DTSTAMP:20260714T225021Z
+DTSTAMP:20260715T225204Z
 UID:GOOG-2026-07-22@earnings-tracker
 DESCRIPTION:Alphabet Inc. Class C (GOOG) earnings report\nDate: 2026-07-22
  \nIndustry: Internet Services / AI\nSource: Yahoo Finance
@@ -185,7 +185,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Meta Platforms\, Inc. (META) Earnings
 DTSTART;TZID=US/Eastern:20260729T160000
 DTEND;TZID=US/Eastern:20260729T170000
-DTSTAMP:20260714T225021Z
+DTSTAMP:20260715T225204Z
 UID:META-2026-07-29@earnings-tracker
 DESCRIPTION:Meta Platforms\, Inc. (META) earnings report\nDate: 2026-07-29
  \nIndustry: Social Media & AI\nSource: Yahoo Finance
@@ -206,7 +206,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Salesforce\, Inc. (CRM) Earnings
 DTSTART;TZID=US/Eastern:20260902T160000
 DTEND;TZID=US/Eastern:20260902T170000
-DTSTAMP:20260714T225021Z
+DTSTAMP:20260715T225204Z
 UID:CRM-2026-09-02@earnings-tracker
 DESCRIPTION:Salesforce\, Inc. (CRM) earnings report\nDate: 2026-09-02\nInd
  ustry: Enterprise Software (CRM)\nSource: Yahoo Finance
@@ -225,7 +225,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Mastercard Incorporated (MA) Earnings
 DTSTART;TZID=US/Eastern:20260730T160000
 DTEND;TZID=US/Eastern:20260730T170000
-DTSTAMP:20260714T225022Z
+DTSTAMP:20260715T225204Z
 UID:MA-2026-07-30@earnings-tracker
 DESCRIPTION:Mastercard Incorporated (MA) earnings report\nDate: 2026-07-30
  \nIndustry: Payment Networks\nSource: Yahoo Finance
@@ -246,7 +246,7 @@ BEGIN:VEVENT
 SUMMARY:📊 LandBridge Company LLC (LB) Earnings
 DTSTART;TZID=US/Eastern:20260805T160000
 DTEND;TZID=US/Eastern:20260805T170000
-DTSTAMP:20260714T225022Z
+DTSTAMP:20260715T225204Z
 UID:LB-2026-08-05@earnings-tracker
 DESCRIPTION:LandBridge Company LLC (LB) earnings report\nDate: 2026-08-05\
  nIndustry: Energy Infrastructure / Land & Resource Management\nSource: Yah
@@ -266,7 +266,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Liberty Global Ltd. Class A (LBTYA) Earnings
 DTSTART;TZID=US/Eastern:20260724T160000
 DTEND;TZID=US/Eastern:20260724T170000
-DTSTAMP:20260714T225023Z
+DTSTAMP:20260715T225206Z
 UID:LBTYA-2026-07-24@earnings-tracker
 DESCRIPTION:Liberty Global Ltd. Class A (LBTYA) earnings report\nDate: 202
  6-07-24\nIndustry: Telecommunications\nSource: Yahoo Finance
@@ -287,7 +287,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Netflix\, Inc. (NFLX) Earnings
 DTSTART;TZID=US/Eastern:20260716T160000
 DTEND;TZID=US/Eastern:20260716T170000
-DTSTAMP:20260714T225023Z
+DTSTAMP:20260715T225206Z
 UID:NFLX-2026-07-16@earnings-tracker
 DESCRIPTION:Netflix\, Inc. (NFLX) earnings report\nDate: 2026-07-16\nIndus
  try: Streaming Media\nSource: Yahoo Finance
@@ -301,7 +301,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Kaspi.kz JSC (KSPI) Earnings
 DTSTART;TZID=US/Eastern:20260810T160000
 DTEND;TZID=US/Eastern:20260810T170000
-DTSTAMP:20260714T225023Z
+DTSTAMP:20260715T225206Z
 UID:KSPI-2026-08-10@earnings-tracker
 DESCRIPTION:Kaspi.kz JSC (KSPI) earnings report\nDate: 2026-08-10\nIndustr
  y: Fintech / E-commerce / Payments\nSource: Yahoo Finance
@@ -315,7 +315,7 @@ BEGIN:VEVENT
 SUMMARY:📊 Tencent Holdings Ltd. (0700.HK) Earnings
 DTSTART;TZID=US/Eastern:20260812T160000
 DTEND;TZID=US/Eastern:20260812T170000
-DTSTAMP:20260714T225023Z
+DTSTAMP:20260715T225206Z
 UID:0700.HK-2026-08-12@earnings-tracker
 DESCRIPTION:Tencent Holdings Ltd. (0700.HK) earnings report\nDate: 2026-08
  -12\nIndustry: Internet Services / Gaming / AI\nSource: Yahoo Finance
